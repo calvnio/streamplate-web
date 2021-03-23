@@ -1,36 +1,20 @@
 import React from "react";
 import logo from "../../../logo.svg";
+import "./styles.css";
 
 const Header = () => {
   return (
-    <div className="component-header">
-      <img src={logo} className="component-logo" />
-      <div style={navStyle}>
-        <div>Hello</div>
-        <div>my name</div>
-        <div>Calvin</div>
+    <div className="header">
+      <div>
+        <img src={logo} className="logo" alt="logo" />
+      </div>
+      <div className="nav">
+        <p>App</p>
+        <p>Orb</p>
+        <p>Contact</p>
       </div>
     </div>
   );
-};
-
-const headerStyle = {
-  display: "flex",
-  flexDirection: "row",
-  justifyContent: "space-between",
-  backgroundColor: "blue",
-  padding: 10,
-  margin: 10,
-};
-
-const navStyle = {
-  display: "flex",
-  flexDirection: "row",
-  margin: 20,
-};
-
-const logoStyle = {
-  height: 40,
 };
 
 export default Header;
