@@ -8,16 +8,16 @@ import orbs from "../../../assets/divider-orbs.jpg";
 
 const HomeScreen = () => {
   return (
-    <div className="app-container">
-      <img src={background} className="app-background" />
-      <div className="app-header">
+    <div className="home-container">
+      <img src={background} className="home-background" />
+      <div className="home-header">
         Control your lifestyle
         <div>Your univseral health app</div>
         <Button variant="contained" color="black">
           Learn more
         </Button>
       </div>
-      <img src={orbs} className="app-divider" />
+      <img src={orbs} className="home-divider" />
     </div>
   ); /*
   return (

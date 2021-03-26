@@ -15,6 +15,8 @@
 .nav-logo-1 {
   padding-top: 5px;
   height: 30px;
+  padding-right: 30%;
+  border-right: 2px solid rgb(228, 228, 228);
 }
 
 .nav-logo-2 {
