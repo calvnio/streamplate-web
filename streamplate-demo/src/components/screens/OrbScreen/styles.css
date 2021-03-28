@@ -1,0 +1,36 @@
+.orb-container {
+  width: 87%;
+  margin: 0 5% 5% 8%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.orb-pic {
+  width: 30vw;
+  border-radius: 50px;
+  margin-top: 10%;
+}
+
+.orb-gif {
+  width: 100%;
+}
+
+.orb-about {
+  text-align: left;
+  margin: 1% 0 5% 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  width: 600px;
+  color: rgb(109, 109, 109);
+  line-height: 1.6em;
+}
+
+.orb-about div {
+  font-size: 40px;
+  font-weight: 700;
+  color: black;
+  margin: 20px 0 20px 0;
+  line-height: 1.2em;
+}

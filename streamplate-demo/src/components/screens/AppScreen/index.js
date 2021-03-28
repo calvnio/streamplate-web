@@ -1,15 +1,24 @@
 import "./styles.css";
-import Drawer from "@material-ui/core/Drawer";
 import React from "react";
-import AppBar from "@material-ui/core/AppBar";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
-import ListItemText from "@material-ui/core/ListItemText";
+import { BiFoodMenu } from "react-icons/bi";
 
 const AppScreen = () => {
-  const [selectedIndex, setSelectedIndex] = React.useState(0);
-
-  return <div className="app-container">This is the app screen</div>;
+  return (
+    <div className="app-container">
+      <div className="app-detail">
+        Your personalised food ordering app.
+        <br />
+        With health tracking. For free.
+      </div>
+      <div className="app-features">
+        <button>
+          <div>
+            <BiFoodMenu size={80} /> Food Ordering
+          </div>
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default AppScreen;
